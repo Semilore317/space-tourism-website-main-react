@@ -2,7 +2,9 @@ import React from 'react'
 
 function Technology() {
   return (
-    <div>Technology</div>
+    <div className='technology'>
+        
+    </div>
   )
 }
 

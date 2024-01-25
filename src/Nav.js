@@ -27,6 +27,7 @@ function Nav() {
             <Link to='/technology'>03 Technology</Link>
           </li>
         </ul>
+        <img src={burgerIcon} alt="burger icon" className="burger-icon"/>
       </nav>
     </header>
   );
