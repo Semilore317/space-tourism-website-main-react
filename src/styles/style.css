@@ -22,15 +22,15 @@ body {
   border: 1px solid white;
   padding: 5px;
 }
-.container header .logo {
-  position: absolute;
-  left: 5px;
-  top: 5px;
-}
 .container header .nav {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 100%;
+  border: 2px solid red;
+}
+.container header .nav .logo {
+  border: 2px solid green;
 }
 .container header .nav .burger-icon {
   position: absolute;
