@@ -4,6 +4,10 @@ import { Link } from "react-router-dom";
 import burgerIcon from './images/icon-hamburger.svg'
 
 function Nav() {
+
+    const[open, setOpen] = React.useState(false); 
+    //redacted
+
   return (
     <header>
       <nav className="nav">
@@ -11,7 +15,7 @@ function Nav() {
           <img src={Logo} alt="logo" />
         </div>
         <ul>
-          <li>
+          <li className="active">
             <Link to='/'>00 Home</Link>
           </li>
 
