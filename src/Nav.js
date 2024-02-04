@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "./images/logo.svg";
 import { Link } from "react-router-dom";
 import burgerIcon from './images/icon-hamburger.svg'
+import closeIcon from './images/icon-close.svg'
 
 function Nav() {
 
@@ -31,7 +32,16 @@ function Nav() {
             <Link to='/technology'>03 Technology</Link>
           </li>
         </ul>
-        <img src={burgerIcon} alt="burger icon" className="burger-icon"/>
+        <div onClick={()=>setOpen(!open)} className="burger">
+        (
+            //still working on this
+            open === false ?
+
+                <img src={burgerIcon} alt="burger icon" className="burger-icon"/> 
+                <img src={closeIcon} alt="burger icon" className="burger-icon"/> 
+          )
+        </div>
+        
       </nav>
     </header>
   );
