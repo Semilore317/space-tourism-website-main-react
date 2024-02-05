@@ -35,6 +35,7 @@ function Nav() {
         <div onClick={()=>setOpen(!open)} className="burger">
         (
             //still working on this
+            //sigh
             open === false ?
 
                 <img src={burgerIcon} alt="burger icon" className="burger-icon"/> 
