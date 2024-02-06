@@ -36,6 +36,7 @@ function Nav() {
         (
             //still working on this
             //sigh
+            //s i g h . d a m n
             open === false ?
 
                 <img src={burgerIcon} alt="burger icon" className="burger-icon"/> 
