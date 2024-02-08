@@ -11,7 +11,7 @@ function Nav() {
 
   return (
     <header>
-      <nav className="nav">
+      <nav className={`nav ${open?'show':""}`}>
         <div className="logo">
           <img src={Logo} alt="logo" />
         </div>
@@ -33,16 +33,11 @@ function Nav() {
           </li>
         </ul>
         <div onClick={()=>setOpen(!open)} className="burger">
-        (
-            //still working on this
-            //sigh
-            //s i g h . d a m n
-            //s t i l l . d o i n g . t h i s!
-            open === false ?
-
-                <img src={burgerIcon} alt="burger icon" className="burger-icon"/> 
-                <img src={closeIcon} alt="burger icon" className="burger-icon"/> 
-          )
+        ({
+            open === false ? 
+            
+                <img src={burgerIcon} alt="burger icon" className="burger-icon"/> : <img src={closeIcon} alt="burger icon" className="burger-icon"/> 
+        })
         </div>
         
       </nav>
