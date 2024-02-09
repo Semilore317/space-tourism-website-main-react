@@ -1,7 +1,7 @@
-export default{
-    "destinations": [
+{
+    "destinations": ;[
       {
-        "name": "Moon",
+        "name": "Moon", 
         "images": {
           "png": "/destination/image-moon.png",
           "webp": "/destination/image-moon.webp"
@@ -114,3 +114,5 @@ export default{
       }
     ]
   }
+
+export default data;
