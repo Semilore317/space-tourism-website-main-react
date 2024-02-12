@@ -2,6 +2,7 @@ import React from "react";
 import moon from "./destination assets/image-moon.png";
 import data from "./../data";
 //ivory coast beats Nigeria
+//went out and exhausted af
 
 function Destination() {
   const [planetNumber, setPlanetNumber] = React.useState(2);
