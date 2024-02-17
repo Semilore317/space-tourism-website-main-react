@@ -4,6 +4,7 @@ import data from "./../data";
 //ivory coast beats Nigeria
 //went out and exhausted af
 //...... .. ..installed myschool
+//hey
 
 function Destination() {
   const [planetNumber, setPlanetNumber] = React.useState(2);
