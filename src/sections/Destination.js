@@ -4,7 +4,7 @@ import data from "./../data";
 //ivory coast beats Nigeria
 //went out and exhausted af
 //...... .. ..installed myschool
-//hey damn ... bhjl
+//hey damn ... bhjl nnnn
 //fukkkkkk
 
 function Destination() {
