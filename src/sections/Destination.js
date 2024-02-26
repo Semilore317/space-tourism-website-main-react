@@ -5,7 +5,7 @@ import data from "./../data";
 //went out and exhausted af
 //...... .. ..installed myschool
 //hey damn ... bhjl nnnn workoutday2, 3
-//fukkkkkk
+//fukkkkkk shueeey
 
 function Destination() {
   const [planetNumber, setPlanetNumber] = React.useState(2);
