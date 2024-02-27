@@ -1,7 +1,7 @@
 import React from "react";
 import moon from "./destination assets/image-moon.png";
 import data from "./../data";
-//ivory coast beats Nigeria
+//ivory coast beats Nigeria hvhh
 //went out and exhausted af
 //...... .. ..installed myschool
 //hey damn ... bhjl nnnn workoutday2, 3
